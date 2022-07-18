@@ -18,6 +18,11 @@ public class CardController : MonoBehaviour {
 
     void Start() {
         _nextKey = _combination[0];
+        SetGraphics();
+    }
+
+    private void SetGraphics() {
+
     }
 
     void Update() {
